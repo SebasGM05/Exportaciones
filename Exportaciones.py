@@ -10,7 +10,7 @@ def leer_ruta(ruta, tabla):
 
 # Especificar la ruta del archivo Excel
 ruta = "./Exportaciones_General.xlsx"
-
+#.
 # Leer las diferentes hojas del archivo Excel en DataFrames
 exportaciones = leer_ruta(ruta, "Exportaciones")
 categoria3 = leer_ruta(ruta, "Categoria3")
